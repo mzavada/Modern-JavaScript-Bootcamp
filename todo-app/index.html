@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Things Todo</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+    <h1>Notes App</h1>
+    <h2>Takes notes and never forget</h2>
+    <h3 id="summaryText"></h3>
+    <input type="text" id="inputSearchText" placeholder="Enter search text">
+    <br>
+    <label><input type="checkbox" id="chbxHideCompleted">Hide completed</label>
+    <br>
+    <ul id="listTodos"></ul>
+    <form id="todoForm">
+        <input type="text" placeholder="Enter new todo" name="newTodoText">
+        <br>
+        <button>Create Todo</button>
+    </form>
+    <script src="uuid.js"></script>
+    <script src="todo-functions.js"></script>
+    <script src="todo-app.js"></script>
+</body>
+
+</html>

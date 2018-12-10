@@ -1,0 +1,31 @@
+{
+  "name": "modern-javascript-bootcamp",
+  "version": "1.0.0",
+  "description": "Modern JavaScript Bootcamp class files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mzavada/Modern-JavaScript-Bootcamp.git"
+  },
+  "keywords": [
+    "Javascript",
+    "Bootcamp",
+    "Andrew",
+    "Mead"
+  ],
+  "author": "Matthew Zavada",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mzavada/Modern-JavaScript-Bootcamp/issues"
+  },
+  "homepage": "https://github.com/mzavada/Modern-JavaScript-Bootcamp#readme",
+  "devDependencies": {
+    "csscomb": "^4.2.0",
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0"
+  }
+}
