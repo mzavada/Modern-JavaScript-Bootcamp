@@ -17,6 +17,13 @@
     <br>
     <label><input type="checkbox" id="chbxHideCompleted">Hide completed</label>
     <br>
+    <label for"optSort">Sort by:
+        <select id="sortBy">
+            <option value="byEdited">Sort by last edited</option>
+            <option value="byCreated">Sort by recently created</option>
+            <option value="alpha">Sort alphabetically</option>
+        </select>
+    </label><br>
     <ul id="listTodos"></ul>
     <form id="todoForm">
         <input type="text" placeholder="Enter new todo" name="newTodoText">
@@ -24,6 +31,7 @@
         <button>Create Todo</button>
     </form>
     <script src="uuid.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment-with-locales.min.js"></script>
     <script src="todo-functions.js"></script>
     <script src="todo-app.js"></script>
 </body>

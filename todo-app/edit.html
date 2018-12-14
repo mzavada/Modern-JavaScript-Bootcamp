@@ -9,14 +9,19 @@
 </head>
 
 <body>
-
+    <h1>Edit Form</h1>
     <label for="tbxTodo">Todo<br>
         <input id="tbxTodo" placeholder="Enter text..."></label><br>
+
     <label for="chbxCompleted">Completed?
         <input type="checkbox" id="chbxCompleted">
     </label><br>
+    <p>Created: <span id="createdAt"></span></p>
+    <p>Updated: <span id="updatedAt"></span></p>
+
     <button id="removeTodo">Remove Todo</button><br>
     <a href="/todo-app/index.html">Return to Homepage</a>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment-with-locales.min.js"></script>
     <script src="todo-functions.js"></script>
     <script src="todo-edit.js"></script>
 </body>
